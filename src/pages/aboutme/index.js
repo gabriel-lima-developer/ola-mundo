@@ -1,5 +1,10 @@
+import Banner from "components/Banner";
+
 export default function AboutMe() {
     return (
-        <h1>Sobre mim...</h1>
+        <main>
+            <Banner/>
+            <h1>Sobre mim...</h1>
+        </main>
     )
 }

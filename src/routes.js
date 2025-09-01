@@ -1,5 +1,5 @@
 import Index from "./pages/Index/index";
-import AboutMe from "./pages/AboutMe/index";
+import AboutMe from "./pages/AboutMe";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Menu from "./components/Menu";
 import Footer from "components/Footer";

@@ -4,10 +4,14 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Menu from "./components/Menu";
 import Footer from "components/Footer";
 import PageDefault from "components/PageDefault";
+import Post from "pages/Post";
+import NotFound from "pages/NotFound";
+import ScrollToTop from "components/ScrollToTop";
 
 function AppRoutes() {
   return (
     <BrowserRouter>
+      <ScrollToTop/>
       <Menu />
 
       <Routes>
@@ -16,7 +20,8 @@ function AppRoutes() {
           <Route path="aboutMe" element={<AboutMe />}/>
         </Route>
         
-        <Route path="*" element={<div>Página não encontrada</div>}/>
+        <Route path="posts/:id" element={<Post />}/>
+        <Route path="*" element={<NotFound/>}/>
       </Routes>
 
       <Footer/>

@@ -1,28 +1,42 @@
-# Ola-Mundo
+# Olá, Mundo! 👋
 
-Projeto desenvolvido durante a certificação **React: desenvolvendo em React Router com JavaScript** da **Alura**.
+Aplicação criada durante a certificação **React: desenvolvendo em React Router com JavaScript** da **Alura**. O projeto demonstra a implementação de rotas estáticas e dinâmicas para a navegação em uma Single Page Application (SPA).
 
-## 🔗 Links
+<br>
 
-- **GitHub**: [gabriel-lima-developer/ola-mundo](https://github.com/gabriel-lima-developer/ola-mundo)  
-- **Deploy (Vercel)**: [ola-mundo-steel-alpha.vercel.app](https://ola-mundo-steel-alpha.vercel.app/)
+> **Status:** Projeto Concluído ✅
 
-## 📖 Sobre o projeto
+<br>
 
-Aplicação criada em **React** com **React Router**, explorando rotas estáticas e dinâmicas para demonstrar a navegação em uma SPA.
+### 🔗 Links
 
-## 🛠 Tecnologias
+- **Deploy (Vercel):** [ola-mundo-steel-alpha.vercel.app](https://ola-mundo-steel-alpha.vercel.app/)
+- **Repositório:** [gabriel-lima-developer/ola-mundo](https://github.com/gabriel-lima-developer/ola-mundo)
 
-- React  
-- React Router  
-- JavaScript (ES6+)  
-- Vercel (deploy)
+<br>
 
-## 📚 Aprendizados
+## 📖 Sobre o Projeto
 
-- Estruturação de rotas em React.  
-- Criação de SPA com React Router.  
-- Publicação de projeto no Vercel.  
+Este projeto foi desenvolvido como parte de um curso focado em **React Router**. O objetivo principal é explorar os fundamentos do roteamento em React, incluindo:
+
+-   A criação de uma estrutura de navegação para uma SPA.
+-   A configuração de rotas estáticas (como Início e Sobre Mim).
+-   A implementação de rotas dinâmicas para exibir detalhes específicos (como os posts).
+-   A utilização de componentes do React Router, como `BrowserRouter`, `Routes`, `Route` e `Link`.
+
+## 🛠️ Tecnologias Utilizadas
+
+-   **React**
+-   **React Router**
+-   **JavaScript (ES6+)**
+-   **Vercel** (para deploy)
+
+## 📚 Principais Aprendizados
+
+-   Estruturação e organização de rotas em uma aplicação React.
+-   Diferença e aplicação de rotas estáticas e dinâmicas.
+-   Como criar uma experiência de navegação fluida em uma Single Page Application.
+-   Processo de deploy de uma aplicação React no Vercel.
 
 ## 👨‍💻 Autor
 
